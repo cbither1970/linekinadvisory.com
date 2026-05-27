@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linekin Advisory LLC</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #ffffff; color: #1a1a1a; line-height: 1.6; }
+  a { color: #1a56db; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrapper { max-width: 760px; margin: 0 auto; padding: 0 2rem; }
+
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 2rem 0; border-bottom: 1px solid #e5e5e5; margin-bottom: 4rem; }
+  .nav-logo { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; color: #1a1a1a; }
+  .nav-contact { font-size: 13px; color: #555; }
+  .nav-contact a { color: #1a56db; }
+
+  .hero { margin-bottom: 4rem; }
+  .hero-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #888; margin-bottom: 1rem; }
+  .hero-headline { font-size: 32px; font-weight: 600; color: #1a1a1a; line-height: 1.25; margin-bottom: 1.25rem; }
+  .hero-sub { font-size: 17px; color: #444; line-height: 1.75; max-width: 600px; }
+
+  .section { margin-bottom: 3.5rem; }
+  .section-label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #888; padding-bottom: 0.75rem; border-bottom: 1px solid #e5e5e5; margin-bottom: 1.5rem; }
+  .section-body { font-size: 16px; color: #444; line-height: 1.8; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .card { background: #f8f8f8; border-radius: 10px; padding: 1.25rem 1.5rem; }
+  .card-title { font-size: 14px; font-weight: 600; color: #1a1a1a; margin-bottom: 0.4rem; }
+  .card-body { font-size: 14px; color: #555; line-height: 1.65; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .stat { background: #f8f8f8; border-radius: 8px; padding: 1.25rem; text-align: center; }
+  .stat-num { font-size: 24px; font-weight: 600; color: #1a1a1a; }
+  .stat-label { font-size: 12px; color: #777; margin-top: 4px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: #888; padding-bottom: 0.6rem; border-bottom: 1px solid #e5e5e5; }
+  td { padding: 0.65rem 0; border-bottom: 1px solid #f0f0f0; color: #444; }
+  tr:last-child td { border-bottom: none; font-weight: 600; color: #1a1a1a; }
+  .right { text-align: right; }
+
+  .contact-block { background: #f8f8f8; border-radius: 10px; padding: 1.75rem; }
+  .contact-block p { font-size: 15px; color: #555; line-height: 1.75; margin-bottom: 1rem; }
+  .contact-detail { font-size: 14px; color: #1a1a1a; }
+
+  footer { border-top: 1px solid #e5e5e5; padding: 2rem 0; margin-top: 4rem; font-size: 12px; color: #aaa; }
+
+  @media (max-width: 560px) {
+    .hero-headline { font-size: 24px; }
+    .two-col { grid-template-columns: 1fr; }
+    .stat-row { grid-template-columns: 1fr 1fr; }
+    nav { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <nav>
+    <span class="nav-logo">LINEKIN ADVISORY LLC</span>
+    <span class="nav-contact"><a href="mailto:cbither@linekinadvisory.com">cbither@linekinadvisory.com</a></span>
+  </nav>
+
+  <div class="hero">
+    <p class="hero-label">M&amp;A Advisory &middot; Corporate Development</p>
+    <h1 class="hero-headline">Senior corporate development experience,<br>without the headcount.</h1>
+    <p class="hero-sub">Linekin Advisory is a fractional M&amp;A advisory practice serving sponsor-owned and founder-led platform businesses. We help companies assess, structure, and execute inorganic growth &mdash; from the first strategic question through signed acquisition.</p>
+  </div>
+
+  <div class="section">
+    <p class="section-label">What we do</p>
+    <div class="two-col">
+      <div class="card">
+        <p class="card-title">M&amp;A diagnostic</p>
+        <p class="card-body">Fixed-scope assessment of M&amp;A as a value-creation lever. Frame the option set, test the math, recommend a sequence. Delivered in 8&ndash;10 weeks.</p>
+      </div>
+      <div class="card">
+        <p class="card-title">Execution support</p>
+        <p class="card-body">Buy-side deal execution against the recommended program: target sourcing, LOI, diligence, QofE, purchase agreement, integration planning.</p>
+      </div>
+      <div class="card">
+        <p class="card-title">Value-creation modeling</p>
+        <p class="card-body">Multiple arbitrage, EBITDA accretion, capital structure, and equity story framing for sponsor portfolio companies approaching exit.</p>
+      </div>
+      <div class="card">
+        <p class="card-title">Strategic advisory</p>
+        <p class="card-body">Shareholder-side advisory through sale processes. Build-vs-buy analysis. M&amp;A capability builds for organic-to-inorganic transitions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <p class="section-label">Track record</p>
+    <div class="stat-row">
+      <div class="stat">
+        <p class="stat-num">~$1B</p>
+        <p class="stat-label">Aggregate consideration</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">11</p>
+        <p class="stat-label">Buy-side transactions</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">9 yrs</p>
+        <p class="stat-label">In-house corp dev</p>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Transaction</th>
+          <th>Year</th>
+          <th class="right">Size</th>
+          <th>Acquirer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>CompareCards</td><td>2016</td><td class="right">$130M</td><td>LendingTree</td></tr>
+        <tr><td>MagnifyMoney</td><td>2017</td><td class="right">$39.5M</td><td>LendingTree</td></tr>
+        <tr><td>DepositAccounts</td><td>2017</td><td class="right">$33M</td><td>LendingTree</td></tr>
+        <tr><td>Student Loan Hero</td><td>2017</td><td class="right">$60M</td><td>LendingTree</td></tr>
+        <tr><td>QuoteWizard</td><td>2018</td><td class="right">$370M</td><td>LendingTree</td></tr>
+        <tr><td>ValuePenguin</td><td>2019</td><td class="right">$105M</td><td>LendingTree</td></tr>
+        <tr><td>Stash (strategic investment)</td><td>2020</td><td class="right">$80M</td><td>LendingTree</td></tr>
+        <tr><td>On The Barrelhead</td><td>2022</td><td class="right">$120M</td><td>NerdWallet</td></tr>
+        <tr><td>Cumulative &middot; 11 transactions</td><td></td><td class="right">~$1B</td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <p class="section-label">Background</p>
+    <p class="section-body">Nine years in corporate development at LendingTree (2016&ndash;2021) and NerdWallet (2021&ndash;2025), across ~$1B in buy-side M&amp;A and eleven transactions. Early deals hands-on end-to-end &mdash; sourcing, structuring, diligence, purchase agreement, integration. Later, managing the team doing that work while owning deal strategy, board materials, and outcomes. Earlier career in investment banking at Lehman Brothers and equity research at small-cap special-situations hedge funds &mdash; the multi-lens background that informs how acquisitions get evaluated, structured, and underwritten.</p>
+  </div>
+
+  <div class="section">
+    <p class="section-label">Contact</p>
+    <div class="contact-block">
+      <p>Linekin Advisory works with a small number of clients at any time. If you&rsquo;re evaluating M&amp;A as a growth option and want a senior perspective before committing to a full engagement, reach out.</p>
+      <p class="contact-detail"><a href="mailto:cbither@linekinadvisory.com">cbither@linekinadvisory.com</a> &nbsp;&middot;&nbsp; 347.843.9848 &nbsp;&middot;&nbsp; Burlingame, CA</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Linekin Advisory LLC
+  </footer>
+
+</div>
+</body>
+</html>
