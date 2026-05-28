@@ -37,11 +37,15 @@
   .stat-num { font-size: 24px; font-weight: 600; color: #1a1a1a; }
   .stat-label { font-size: 12px; color: #777; margin-top: 4px; }
 
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  th { text-align: left; font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: #888; padding-bottom: 0.6rem; border-bottom: 1px solid #e5e5e5; }
-  td { padding: 0.65rem 0; border-bottom: 1px solid #f0f0f0; color: #444; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; }
+  col.col-tx { width: 38%; }
+  col.col-yr { width: 12%; }
+  col.col-sz { width: 18%; }
+  col.col-aq { width: 32%; }
+  th { text-align: left; font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: #888; padding: 0 8px 0.6rem 0; border-bottom: 1px solid #e5e5e5; }
+  td { padding: 0.65rem 8px 0.65rem 0; border-bottom: 1px solid #f0f0f0; color: #444; }
   tr:last-child td { border-bottom: none; font-weight: 600; color: #1a1a1a; }
-  .right { text-align: right; }
+  .right { text-align: right; padding-right: 16px; }
 
   .contact-block { background: #f8f8f8; border-radius: 10px; padding: 1.75rem; }
   .contact-block p { font-size: 15px; color: #555; line-height: 1.75; margin-bottom: 1rem; }
@@ -111,6 +115,12 @@
       </div>
     </div>
     <table>
+      <colgroup>
+        <col class="col-tx">
+        <col class="col-yr">
+        <col class="col-sz">
+        <col class="col-aq">
+      </colgroup>
       <thead>
         <tr>
           <th>Transaction</th>
